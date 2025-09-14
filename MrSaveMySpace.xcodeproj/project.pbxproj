@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650F46B02E766FAE001BE36D /* MrSaveMySpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46AF2E766FAE001BE36D /* MrSaveMySpaceApp.swift */; };
+		650F46B22E766FAE001BE36D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46B12E766FAE001BE36D /* Persistence.swift */; };
+		650F46B52E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 650F46B32E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld */; };
+		650F46B72E766FAE001BE36D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46B62E766FAE001BE36D /* ContentView.swift */; };
+		650F46B92E766FB1001BE36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650F46B82E766FB1001BE36D /* Assets.xcassets */; };
+		650F46BD2E766FB1001BE36D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650F46BC2E766FB1001BE36D /* Preview Assets.xcassets */; };
+		650F46C72E766FB1001BE36D /* MrSaveMySpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46C62E766FB1001BE36D /* MrSaveMySpaceTests.swift */; };
+		650F46D12E766FB1001BE36D /* MrSaveMySpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */; };
+		650F46D32E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650F46C32E766FB1001BE36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F46A42E766FAE001BE36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F46AB2E766FAE001BE36D;
+			remoteInfo = MrSaveMySpace;
+		};
+		650F46CD2E766FB1001BE36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F46A42E766FAE001BE36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F46AB2E766FAE001BE36D;
+			remoteInfo = MrSaveMySpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650F46AC2E766FAE001BE36D /* MrSaveMySpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrSaveMySpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F46AF2E766FAE001BE36D /* MrSaveMySpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceApp.swift; sourceTree = "<group>"; };
+		650F46B12E766FAE001BE36D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		650F46B42E766FAE001BE36D /* MrSaveMySpace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MrSaveMySpace.xcdatamodel; sourceTree = "<group>"; };
+		650F46B62E766FAE001BE36D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		650F46B82E766FB1001BE36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650F46BA2E766FB1001BE36D /* MrSaveMySpace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MrSaveMySpace.entitlements; sourceTree = "<group>"; };
+		650F46BC2E766FB1001BE36D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		650F46C22E766FB1001BE36D /* MrSaveMySpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrSaveMySpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F46C62E766FB1001BE36D /* MrSaveMySpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceTests.swift; sourceTree = "<group>"; };
+		650F46CC2E766FB1001BE36D /* MrSaveMySpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrSaveMySpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITests.swift; sourceTree = "<group>"; };
+		650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650F46A92E766FAE001BE36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46BF2E766FB1001BE36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46C92E766FB1001BE36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650F46A32E766FAE001BE36D = {
+			isa = PBXGroup;
+			children = (
+				650F46AE2E766FAE001BE36D /* MrSaveMySpace */,
+				650F46C52E766FB1001BE36D /* MrSaveMySpaceTests */,
+				650F46CF2E766FB1001BE36D /* MrSaveMySpaceUITests */,
+				650F46AD2E766FAE001BE36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650F46AD2E766FAE001BE36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650F46AC2E766FAE001BE36D /* MrSaveMySpace.app */,
+				650F46C22E766FB1001BE36D /* MrSaveMySpaceTests.xctest */,
+				650F46CC2E766FB1001BE36D /* MrSaveMySpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650F46AE2E766FAE001BE36D /* MrSaveMySpace */ = {
+			isa = PBXGroup;
+			children = (
+				650F46AF2E766FAE001BE36D /* MrSaveMySpaceApp.swift */,
+				650F46B12E766FAE001BE36D /* Persistence.swift */,
+				650F46B62E766FAE001BE36D /* ContentView.swift */,
+				650F46B82E766FB1001BE36D /* Assets.xcassets */,
+				650F46BA2E766FB1001BE36D /* MrSaveMySpace.entitlements */,
+				650F46B32E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld */,
+				650F46BB2E766FB1001BE36D /* Preview Content */,
+			);
+			path = MrSaveMySpace;
+			sourceTree = "<group>";
+		};
+		650F46BB2E766FB1001BE36D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				650F46BC2E766FB1001BE36D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		650F46C52E766FB1001BE36D /* MrSaveMySpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				650F46C62E766FB1001BE36D /* MrSaveMySpaceTests.swift */,
+			);
+			path = MrSaveMySpaceTests;
+			sourceTree = "<group>";
+		};
+		650F46CF2E766FB1001BE36D /* MrSaveMySpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */,
+				650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */,
+			);
+			path = MrSaveMySpaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650F46AB2E766FAE001BE36D /* MrSaveMySpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F46D62E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpace" */;
+			buildPhases = (
+				650F46A82E766FAE001BE36D /* Sources */,
+				650F46A92E766FAE001BE36D /* Frameworks */,
+				650F46AA2E766FAE001BE36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrSaveMySpace;
+			productName = MrSaveMySpace;
+			productReference = 650F46AC2E766FAE001BE36D /* MrSaveMySpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650F46C12E766FB1001BE36D /* MrSaveMySpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F46D92E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpaceTests" */;
+			buildPhases = (
+				650F46BE2E766FB1001BE36D /* Sources */,
+				650F46BF2E766FB1001BE36D /* Frameworks */,
+				650F46C02E766FB1001BE36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F46C42E766FB1001BE36D /* PBXTargetDependency */,
+			);
+			name = MrSaveMySpaceTests;
+			productName = MrSaveMySpaceTests;
+			productReference = 650F46C22E766FB1001BE36D /* MrSaveMySpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		650F46CB2E766FB1001BE36D /* MrSaveMySpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F46DC2E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpaceUITests" */;
+			buildPhases = (
+				650F46C82E766FB1001BE36D /* Sources */,
+				650F46C92E766FB1001BE36D /* Frameworks */,
+				650F46CA2E766FB1001BE36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F46CE2E766FB1001BE36D /* PBXTargetDependency */,
+			);
+			name = MrSaveMySpaceUITests;
+			productName = MrSaveMySpaceUITests;
+			productReference = 650F46CC2E766FB1001BE36D /* MrSaveMySpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F46A42E766FAE001BE36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					650F46AB2E766FAE001BE36D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					650F46C12E766FB1001BE36D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 650F46AB2E766FAE001BE36D;
+					};
+					650F46CB2E766FB1001BE36D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 650F46AB2E766FAE001BE36D;
+					};
+				};
+			};
+			buildConfigurationList = 650F46A72E766FAE001BE36D /* Build configuration list for PBXProject "MrSaveMySpace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650F46A32E766FAE001BE36D;
+			productRefGroup = 650F46AD2E766FAE001BE36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650F46AB2E766FAE001BE36D /* MrSaveMySpace */,
+				650F46C12E766FB1001BE36D /* MrSaveMySpaceTests */,
+				650F46CB2E766FB1001BE36D /* MrSaveMySpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650F46AA2E766FAE001BE36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F46BD2E766FB1001BE36D /* Preview Assets.xcassets in Resources */,
+				650F46B92E766FB1001BE36D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46C02E766FB1001BE36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46CA2E766FB1001BE36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650F46A82E766FAE001BE36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F46B02E766FAE001BE36D /* MrSaveMySpaceApp.swift in Sources */,
+				650F46B52E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld in Sources */,
+				650F46B72E766FAE001BE36D /* ContentView.swift in Sources */,
+				650F46B22E766FAE001BE36D /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46BE2E766FB1001BE36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F46C72E766FB1001BE36D /* MrSaveMySpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F46C82E766FB1001BE36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F46D12E766FB1001BE36D /* MrSaveMySpaceUITests.swift in Sources */,
+				650F46D32E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650F46C42E766FB1001BE36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F46AB2E766FAE001BE36D /* MrSaveMySpace */;
+			targetProxy = 650F46C32E766FB1001BE36D /* PBXContainerItemProxy */;
+		};
+		650F46CE2E766FB1001BE36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F46AB2E766FAE001BE36D /* MrSaveMySpace */;
+			targetProxy = 650F46CD2E766FB1001BE36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		650F46D42E766FB1001BE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		650F46D52E766FB1001BE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		650F46D72E766FB1001BE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MrSaveMySpace/MrSaveMySpace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MrSaveMySpace/Preview Content\"";
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650F46D82E766FB1001BE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MrSaveMySpace/MrSaveMySpace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MrSaveMySpace/Preview Content\"";
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		650F46DA2E766FB1001BE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrSaveMySpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MrSaveMySpace";
+			};
+			name = Debug;
+		};
+		650F46DB2E766FB1001BE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrSaveMySpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MrSaveMySpace";
+			};
+			name = Release;
+		};
+		650F46DD2E766FB1001BE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MrSaveMySpace;
+			};
+			name = Debug;
+		};
+		650F46DE2E766FB1001BE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPPLJJ74M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dukesky.MrSaveMySpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MrSaveMySpace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650F46A72E766FAE001BE36D /* Build configuration list for PBXProject "MrSaveMySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F46D42E766FB1001BE36D /* Debug */,
+				650F46D52E766FB1001BE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F46D62E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F46D72E766FB1001BE36D /* Debug */,
+				650F46D82E766FB1001BE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F46D92E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F46DA2E766FB1001BE36D /* Debug */,
+				650F46DB2E766FB1001BE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F46DC2E766FB1001BE36D /* Build configuration list for PBXNativeTarget "MrSaveMySpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F46DD2E766FB1001BE36D /* Debug */,
+				650F46DE2E766FB1001BE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		650F46B32E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				650F46B42E766FAE001BE36D /* MrSaveMySpace.xcdatamodel */,
+			);
+			currentVersion = 650F46B42E766FAE001BE36D /* MrSaveMySpace.xcdatamodel */;
+			path = MrSaveMySpace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 650F46A42E766FAE001BE36D /* Project object */;
+}
