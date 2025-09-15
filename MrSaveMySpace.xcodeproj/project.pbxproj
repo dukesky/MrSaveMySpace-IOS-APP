@@ -49,6 +49,7 @@
 		650F46CC2E766FB1001BE36D /* MrSaveMySpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrSaveMySpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITests.swift; sourceTree = "<group>"; };
 		650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		650F46DF2E77D7C4001BE36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		650F46AE2E766FAE001BE36D /* MrSaveMySpace */ = {
 			isa = PBXGroup;
 			children = (
+				650F46DF2E77D7C4001BE36D /* Info.plist */,
 				650F46AF2E766FAE001BE36D /* MrSaveMySpaceApp.swift */,
 				650F46B12E766FAE001BE36D /* Persistence.swift */,
 				650F46B62E766FAE001BE36D /* ContentView.swift */,
@@ -432,6 +434,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MrSaveMySpace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -470,6 +476,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MrSaveMySpace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
