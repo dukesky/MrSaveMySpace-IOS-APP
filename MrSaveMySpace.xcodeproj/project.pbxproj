@@ -16,6 +16,7 @@
 		650F46C72E766FB1001BE36D /* MrSaveMySpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46C62E766FB1001BE36D /* MrSaveMySpaceTests.swift */; };
 		650F46D12E766FB1001BE36D /* MrSaveMySpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */; };
 		650F46D32E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */; };
+		A1F7A101 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7A001 /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		650F46D02E766FB1001BE36D /* MrSaveMySpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITests.swift; sourceTree = "<group>"; };
 		650F46D22E766FB1001BE36D /* MrSaveMySpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrSaveMySpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		650F46DF2E77D7C4001BE36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1F7A001 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				650F46BA2E766FB1001BE36D /* MrSaveMySpace.entitlements */,
 				650F46B32E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld */,
 				650F46BB2E766FB1001BE36D /* Preview Content */,
+				A1F7A001 /* AppModel.swift */,
 			);
 			path = MrSaveMySpace;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				650F46B52E766FAE001BE36D /* MrSaveMySpace.xcdatamodeld in Sources */,
 				650F46B72E766FAE001BE36D /* ContentView.swift in Sources */,
 				650F46B22E766FAE001BE36D /* Persistence.swift in Sources */,
+				A1F7A101 /* AppModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

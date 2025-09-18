@@ -33,3 +33,47 @@ final class MrSaveMySpaceTests: XCTestCase {
     }
 
 }
+
+@testable import MrSaveMySpace
+
+final class DuplicateDetectorTests: XCTestCase {
+    func testWhenHashesMatchAndDatesWithinWindow_groupsDuplicates() {
+        let baseTime: TimeInterval = 1_000
+        let original = Fingerprint(localIdentifier: "0",
+                                   creationTime: baseTime,
+                                   width: 100,
+                                   height: 100,
+                                   dHash64: 1)
+        let closeDuplicate = Fingerprint(localIdentifier: "1",
+                                         creationTime: baseTime + 60,
+                                         width: 100,
+                                         height: 100,
+                                         dHash64: 1)
+        let detector = DuplicateDetector(creationWindow: 120)
+
+        let groups = detector.groupExactDuplicates([original, closeDuplicate])
+
+        XCTAssertEqual(groups.count, 1)
+        XCTAssertEqual(groups.first?.duplicates.count, 1)
+        XCTAssertEqual(groups.first?.duplicates.first?.localIdentifier, "1")
+    }
+
+    func testWhenDatesOutsideWindow_doesNotGroup() {
+        let baseTime: TimeInterval = 1_000
+        let original = Fingerprint(localIdentifier: "0",
+                                   creationTime: baseTime,
+                                   width: 100,
+                                   height: 100,
+                                   dHash64: 1)
+        let farDuplicate = Fingerprint(localIdentifier: "1",
+                                       creationTime: baseTime + 10_000,
+                                       width: 100,
+                                       height: 100,
+                                       dHash64: 1)
+        let detector = DuplicateDetector(creationWindow: 120)
+
+        let groups = detector.groupExactDuplicates([original, farDuplicate])
+
+        XCTAssertTrue(groups.isEmpty)
+    }
+}
