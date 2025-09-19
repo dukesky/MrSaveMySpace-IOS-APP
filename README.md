@@ -32,6 +32,18 @@ MrSaveMySpace helps iPhone users reclaim storage safely by scanning their Photos
      -skip-testing:MrSaveMySpaceUITests test
    ```
 
+5. **Quick Build Script**
+   ```bash
+   ./scripts/build_and_test.sh
+   ```
+   The helper script discovers the UDID for the iPhone 15 simulator (default iOS 17.5, configurable via `SIMULATOR_DEVICE`, `SIMULATOR_OS`, or `SIMULATOR_UDID`), boots it if needed, performs a clean build, installs the resulting `.app`, and launches it so the UI is ready for manual testing without spawning additional simulator clones. If the default OS isn’t installed, it automatically falls back to the first available runtime for that device. Requires `python3` (or falls back to a simple grep-based lookup).
+
+6. **Stop Tests & Close Simulator**
+   ```bash
+   ./scripts/stop_tests.sh
+   ```
+   Use this to terminate any running `xcodebuild` processes, close the Simulator app, and shut down all booted simulators after a test run.
+
 ## Project Structure
 
 - `MrSaveMySpace/` – application sources (composition root, services, view models, SwiftUI views)
@@ -53,4 +65,3 @@ MrSaveMySpace helps iPhone users reclaim storage safely by scanning their Photos
 - [Change Log Index](docs/change-log/)
 
 For additional context on the product roadmap and future modules (similar-photo detection, Live Photo conversion, storage analytics), review the Original Vision section inside `design_v0.md`.
-
