@@ -1,0 +1,10 @@
+---
+description: This is the rule for design IOS app in this repo
+The App design logic should be:
+- clean and easy to use
+- similar UI design as a apple internal tools
+The Codeing workflow should be:
+
+globs:
+alwaysApply: true
+---
